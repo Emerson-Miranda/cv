@@ -1,2 +1,2 @@
 # cv
- meu CV
+ meu curriculum vitae
