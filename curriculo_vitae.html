@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo Vitae</title>
+    <style>
+        :root {
+            --cor1: rgba(4, 48, 222, 0.931);
+        }
+
+        html,
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: rgba(238, 238, 238, 0.468);
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: capitalize;
+
+        }
+
+        main {
+            max-width: 800px;
+            margin: auto;
+            background-color: rgb(185, 185, 185);
+            height: 1000px;
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.291);
+        }
+
+
+        section#central {
+            width: 66.6%;
+            background-color: rgb(255, 255, 255);
+            float: right;
+            box-sizing: border-box;
+            padding: 0 40px;
+
+        }
+
+        section>h1 {
+            text-align: left;
+            color: var(--cor1);
+            font-weight: bold;
+            font-size: 2.2em;
+            margin-bottom: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            text-shadow: 1px 1px rgba(0, 0, 0, 0.41);
+
+        }
+
+        section>p {
+            color: rgb(2, 79, 221);
+            font-size: 1.8em;
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: uppercase;
+        }
+
+        section hr {
+            width: 20%;
+            background-color: rgb(5, 5, 5);
+            margin: 0;
+
+        }
+
+        section#lateral {
+            width: 33.3%;
+            height: inherit;
+            background-color: var(--cor1);
+            float: left;
+            color: white;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        article {
+            margin: 30px 0;
+        }
+
+        article#contato {
+            margin-top: 210px;
+            list-style: none;
+        }
+
+        section#lateral ul {
+            padding-left: 20px;
+
+        }
+
+        section#lateral li {
+            list-style: none;
+            margin: 10px 0;
+            font-size: 0.9em;
+        }
+
+
+
+        article#contato a {
+            text-decoration: none;
+            color: white;
+        }
+
+        article#contato a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+            margin-bottom: 0px;
+
+        }
+
+        .especial {
+            color: rgba(31, 31, 31, 0.549);
+            margin-top: 0px;
+
+        }
+
+        @media(max-width: 700px) {
+
+           
+
+            section#lateral {
+                width: 100%;
+                clear: both;
+                height: auto;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 50px
+            }
+
+            section>h1 {
+                font-size: 2em;
+            }
+
+            section>p {
+
+                font-size: 1.2em;
+            }
+
+            h2{
+                font-size: 1.1em;
+            }
+
+            section#central {
+                width: 100%;
+                clear: both;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            article#contato {
+                margin-top: 50px;
+                list-style: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+
+        <section id="central">
+            <h1>Harrison Sauza <br> Torres Da Silva</h1>
+            <hr>
+            <p>Analista e Desenvolvedor de Sistemas </p>
+
+            <article>
+                <h2>Perfil Pessoal</h2>
+                <p>Apaixomado por tecnologia e em estudar. Cursando ADS na Faculdade de Tecnologia (Fatec) e sempre
+                    progredindo sendo autodidata. Criativo, Flexivel, Agil, controle emocional e vondade de aprender
+                    mais são algumas dos deferencial que posso oferecer a empresa</p>
+            </article>
+
+            <article>
+                <h2>Histórico Acadêmico</h2>
+                <p> unidade Fatec Santana de Parnaiba - ADS</p>
+
+                <p class="especial">Bacharelado em Analise e desenvolvimento de sistemas | cursando - Período manhã.</p>
+
+                <ul>
+                    <li>Ótima notas</li>
+                    <li>Participação em projetos científicos e trabalhos em equipe</li>
+                    <li>Recomendação de professores</li>
+                </ul>
+            </article>
+            <article>
+                <h2>Cursos / certificados</h2>
+                <p>
+                    projov - preparação para o mercado de trabalho.
+                </p>
+                <p class="especial">
+                    comunicação, Atendimento e boas praticas para o mercado de trabalho | 250 horas
+                </p>
+
+
+                <ul>
+                    <li>comunicação, Atendimento ao cliente, Administração e organização de arquivos</li>
+                    <li>Participação em trabalhos voluntários e palestras.</li>
+                </ul>
+
+                <p>IFK curso</p>
+                <p class="especial">informatica. ingles e gestão pessoal | 250 horas</p>
+                <ul>
+                    <li>Boas praticas, organização e comunicação</li>
+                    <li>ingles básico</li>
+                    <li>word, excel, Power Point e windows</li>
+                </ul>
+
+            </article>
+
+        </section>
+        <section id="lateral">
+            <article id="contato">
+                <h2>Contato</h2>
+
+                <ul>
+                    <li> <img src="imagem/location.png" alt="localização"> Rua India iraci, Piratininga -Osasco -
+                        06233-053-SP</li>
+                    <li><img src="imagem/phone.png" alt="Telemovel"> (11)98766-98706</li>
+                    <li> <img src="imagem/mail.png" alt="e-mail"> Harri.torres12@gmail.com</li>
+                    <li> <img src="imagem/laptop.png" alt="github"> <a href="http://github.com/harrisousa"
+                            target="_blank"> http://github.com/harrisousa</a></li>
+                    <li> <img src="imagem/linkedin.png" alt="linkedin"> <a href="" target="_blank">
+                            /in/harrison-s-torres</a></li>
+                </ul>
+
+            </article>
+            <article id="habilidades">
+                <h2>Habilidades</h2>
+
+                <ul>
+                    <li>Trabalho em equipe</li>
+                    <li>
+                        desenvolvimento de software power platform
+                        javascript
+                    </li>
+                    <li>html/css</li>
+                    <li>os Linux</li>
+                    <li>proativo -flexibilidade</li>
+                    <li>pacote office</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+</body>
+
+</html>
